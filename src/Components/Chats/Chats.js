@@ -11,6 +11,8 @@ const theme = {
     botFontColor: '#fff',
     userBubbleColor: '#0cb3c9',
     userFontColor: '#fff',
+
+
 }
 
 export default class Chats extends Component {
@@ -92,9 +94,9 @@ export default class Chats extends Component {
                         {
                             id: "seleccionBack",
                             options: [
-                                { value: "Spring_Framework", label: "Video consultation", trigger: "9" },
-                                { value: "Laravel", label: "hybrid Consultation", trigger: "9" },
-                                { value: ".NET_Core", label: "Audio Consultation", trigger: "9" },
+                                { value: "Video consultation", label: "Video consultation", trigger: "9" },
+                                { value: "hybrid Consultation", label: "hybrid Consultation", trigger: "9" },
+                                { value: "Audio Consultation", label: "Audio Consultation", trigger: "9" },
                             ]
                         },
                         {
